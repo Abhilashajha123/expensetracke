@@ -1,0 +1,50 @@
+.new-expense {
+    background-color: #9D86E7;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.new-expense button{
+    background-color: rgb(96, 14, 96);
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    font: inherit
+}
+
+.new-expense_controls {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+   
+}
+
+.new_expense_control {
+    display: flex;
+    width: 392px;
+    height: 68px;
+    flex-flow: column;
+    color: white;
+    font-weight: bold;
+}
+
+label{
+    display: flex;
+}
+form {/* background: green; */padding: 7px;}
+
+
+
+
+input[type="text"] {height: 29px;border-radius: 5px;margin: 10p;margin-right: 17px;}
+
+input[type="number"] {height: 29px;border-radius: 7px;}
+
+input[type="date"] {height: 29px;border-radius: 6px;}
+
+.new-expense_action {/* float: right; *//* background: yellow; */display: flex;flex-direction: row-reverse;}

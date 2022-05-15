@@ -1,0 +1,23 @@
+
+
+.filter-expense{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+    
+}
+
+
+.filter-expense_dropdown{
+    padding-top: 10px;
+}
+
+.filter_title p{
+    color: white;
+    font-weight: bold;
+}
+select {background: white;width: 100px;height: 36px;border-radius: 5px;background: white;border: 1px solid purple;}
